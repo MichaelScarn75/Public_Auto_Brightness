@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Testing\\AutoBrightness\\AutoBrightness\\AutoBrightness.csproj": {}
+  },
+  "projects": {
+    "C:\\Testing\\AutoBrightness\\AutoBrightness\\AutoBrightness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Testing\\AutoBrightness\\AutoBrightness\\AutoBrightness.csproj",
+        "projectName": "AutoBrightness",
+        "projectPath": "C:\\Testing\\AutoBrightness\\AutoBrightness\\AutoBrightness.csproj",
+        "packagesPath": "C:\\Users\\chong\\.nuget\\packages\\",
+        "outputPath": "C:\\Testing\\AutoBrightness\\AutoBrightness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.2.3\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "InputSimulator": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Syncfusion.SfSkinManager.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Blend.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.FluentDark.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.FluentLight.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Lime.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Material3Dark.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Material3Light.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.MaterialDark.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.MaterialDarkBlue.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.MaterialLight.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.MaterialLightBlue.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Metro.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2010Black.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2010Blue.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2010Silver.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2013DarkGray.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2013LightGray.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2013White.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2016Colorful.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2016DarkGray.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2016White.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2019Black.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2019Colorful.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2019DarkGray.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2019HighContrast.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2019HighContrastWhite.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office2019White.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Office365.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Saffron.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.SystemTheme.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.VisualStudio2013.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.VisualStudio2015.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Windows11Dark.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Themes.Windows11Light.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "Syncfusion.Tools.WPF": {
+              "target": "Package",
+              "version": "[29.2.11, )"
+            },
+            "syncfusion.ui.wpf.net": {
+              "target": "Package",
+              "version": "[24.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

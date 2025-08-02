@@ -1,0 +1,208 @@
+﻿<Window
+    x:Class="AutoBrightness.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:db="clr-namespace:AutoBrightness.ViewModel"
+    xmlns:local="clr-namespace:AutoBrightness"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+    xmlns:syncfusionskin="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+    x:Name="MainWindow_Window"
+    Title="Auto Brightness"
+    Width="1366"
+    Height="788"
+    syncfusionskin:SfSkinManager.Theme="{syncfusionskin:SkinManagerExtension ThemeName=Windows11Dark}"
+    Closed="Window_Closed"
+    Loaded="Window_Loaded"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <db:AutoBrightnessSettingsViewModel />
+    </Window.DataContext>
+    <Grid Background="Black">
+        <Grid
+            Grid.Row="0"
+            Grid.RowSpan="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="1"
+            Background="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="45" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <syncfusion:SfTextBoxExt
+                Grid.Row="0"
+                Grid.RowSpan="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="1"
+                Margin="0,0,10,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                BorderThickness="1"
+                FontFamily="Helvetica"
+                FontSize="20"
+                Text="Theme: " />
+            <syncfusion:ComboBoxAdv
+                x:Name="ComboBox1"
+                Grid.Row="0"
+                Grid.RowSpan="1"
+                Grid.Column="1"
+                Grid.ColumnSpan="1"
+                Width="200"
+                Height="30"
+                AllowMultiSelect="False"
+                DefaultText="ComboBox Items"
+                FontFamily="Helvetica"
+                FontSize="20"
+                SelectedIndex="0"
+                SelectionChanged="ComboBoxAdv_SelectionChanged">
+                <syncfusion:ComboBoxItemAdv Content="Windows11Light" />
+                <syncfusion:ComboBoxItemAdv Content="Windows11Dark" />
+                <syncfusion:ComboBoxItemAdv Content="FluentLight" />
+                <syncfusion:ComboBoxItemAdv Content="FluentDark" />
+                <syncfusion:ComboBoxItemAdv Content="Material3Light" />
+                <syncfusion:ComboBoxItemAdv Content="Material3Dark" />
+                <syncfusion:ComboBoxItemAdv Content="MaterialLight" />
+                <syncfusion:ComboBoxItemAdv Content="MaterialDark" />
+                <syncfusion:ComboBoxItemAdv Content="MaterialLightBlue" />
+                <syncfusion:ComboBoxItemAdv Content="MaterialDarkBlue" />
+                <syncfusion:ComboBoxItemAdv Content="Office2019Colorful" />
+                <syncfusion:ComboBoxItemAdv Content="Office2019Black" />
+                <syncfusion:ComboBoxItemAdv Content="Office2019White" />
+                <syncfusion:ComboBoxItemAdv Content="Office2019DarkGray" />
+                <syncfusion:ComboBoxItemAdv Content="Office2019HighContrast" />
+                <syncfusion:ComboBoxItemAdv Content="Office2019HighContrastWhite" />
+                <syncfusion:ComboBoxItemAdv Content="SystemTheme" />
+                <syncfusion:ComboBoxItemAdv Content="Metro" />
+                <syncfusion:ComboBoxItemAdv Content="Lime" />
+                <syncfusion:ComboBoxItemAdv Content="Saffron" />
+                <syncfusion:ComboBoxItemAdv Content="Blend" />
+                <syncfusion:ComboBoxItemAdv Content="Office2013White" />
+                <syncfusion:ComboBoxItemAdv Content="Office2013LightGray" />
+                <syncfusion:ComboBoxItemAdv Content="Office2013DarkGray" />
+                <syncfusion:ComboBoxItemAdv Content="VisualStudio2013" />
+                <syncfusion:ComboBoxItemAdv Content="Office2010Black" />
+                <syncfusion:ComboBoxItemAdv Content="Office2010Blue" />
+                <syncfusion:ComboBoxItemAdv Content="Office2010Silver" />
+                <syncfusion:ComboBoxItemAdv Content="Office365" />
+                <syncfusion:ComboBoxItemAdv Content="Office2016Colorful" />
+                <syncfusion:ComboBoxItemAdv Content="Office2016White" />
+                <syncfusion:ComboBoxItemAdv Content="Office2016DarkGray" />
+                <syncfusion:ComboBoxItemAdv Content="VisualStudio2015" />
+            </syncfusion:ComboBoxAdv>
+
+            <syncfusion:ButtonAdv
+                x:Name="AddButton"
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                Grid.Column="2"
+                Grid.ColumnSpan="1"
+                Width="45"
+                Height="45"
+                Margin="-20,200,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Click="ButtonAdv_Click"
+                IconHeight="40"
+                IconWidth="40"
+                Label="{x:Null}" />
+
+            <syncfusion:SfDataGrid
+                x:Name="SfDataGrid1"
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Width="600"
+                Height="500"
+                Margin="10,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                AllowEditing="False"
+                AutoGenerateColumns="False"
+                ColumnSizer="Auto"
+                FontSize="15"
+                ItemsSource="{Binding CurrentActiveAppsModels_IEnum}"
+                SelectionMode="Extended">
+                <syncfusion:SfDataGrid.Columns>
+                    <syncfusion:GridTextColumn
+                        HeaderText="App Name"
+                        MappingName="ApplicationName"
+                        TextAlignment="Left"
+                        TextWrapping="NoWrap" />
+                    <syncfusion:GridTextColumn
+                        HeaderText="App Title"
+                        MappingName="ApplicationTitle"
+                        TextAlignment="Left"
+                        TextWrapping="NoWrap" />
+                </syncfusion:SfDataGrid.Columns>
+            </syncfusion:SfDataGrid>
+
+
+            <syncfusion:SfDataGrid
+                x:Name="SfDataGrid2"
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Grid.Column="3"
+                Grid.ColumnSpan="2"
+                Width="600"
+                Height="500"
+                Margin="10,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                AllowEditing="True"
+                AutoGenerateColumns="False"
+                ColumnSizer="Auto"
+                CurrentCellEndEdit="SfDataGrid2_CurrentCellEndEdit"
+                EditTrigger="OnTap"
+                FontSize="15"
+                ItemsSource="{Binding AddedAppsModels_IEnum}"
+                PreviewKeyDown="SfDataGrid2_PreviewKeyDown"
+                SelectionMode="Extended">
+                <syncfusion:SfDataGrid.Columns>
+                    <syncfusion:GridTextColumn
+                        AllowEditing="False"
+                        HeaderText="App Name"
+                        MappingName="ApplicationName"
+                        TextAlignment="Center"
+                        TextWrapping="NoWrap" />
+                    <syncfusion:GridTextColumn
+                        AllowEditing="False"
+                        HeaderText="App Title"
+                        MappingName="ApplicationTitle"
+                        TextAlignment="Center"
+                        TextWrapping="NoWrap" />
+                    <syncfusion:GridNumericColumn
+                        AllowEditing="True"
+                        HeaderText="Brightness"
+                        MappingName="ApplicationBrightness"
+                        MaxValue="100"
+                        MinValue="0"
+                        NumberDecimalDigits="0"
+                        TextAlignment="Center"
+                        TextWrapping="NoWrap" />
+                    <syncfusion:GridNumericColumn
+                        AllowEditing="True"
+                        HeaderText="Enable HDR"
+                        MappingName="EnableHDR"
+                        MaxValue="1"
+                        MinValue="0"
+                        NumberDecimalDigits="0"
+                        TextAlignment="Center"
+                        TextWrapping="NoWrap" />
+                </syncfusion:SfDataGrid.Columns>
+            </syncfusion:SfDataGrid>
+        </Grid>
+    </Grid>
+</Window>

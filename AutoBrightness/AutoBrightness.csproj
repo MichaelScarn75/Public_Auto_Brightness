@@ -1,0 +1,246 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>light-bulb.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="light-bulb.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Blend.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.FluentDark.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.FluentLight.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Lime.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Material3Dark.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Material3Light.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.MaterialDark.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.MaterialDarkBlue.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.MaterialLight.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.MaterialLightBlue.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Metro.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Black.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Blue.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Silver.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2013DarkGray.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2013LightGray.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2013White.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2016Colorful.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2016DarkGray.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2016White.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2019Black.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2019Colorful.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2019DarkGray.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2019HighContrast.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2019HighContrastWhite.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office2019White.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Office365.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Saffron.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.SystemTheme.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.VisualStudio2013.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.VisualStudio2015.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Windows11Dark.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Themes.Windows11Light.WPF" Version="29.2.11" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="29.2.11" />
+    <PackageReference Include="syncfusion.ui.wpf.net" Version="24.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ActiveList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\50-second-version %281%29.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\71397.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Add.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Arrow_Blue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Arrow_Blue1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Arrow_Blue2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Cancel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\ClearFilter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\CollapseAll.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\CustomerBranch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Default.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Delete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\down_arrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Edit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\empty_tick.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Error.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\ExpandAll.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\good %2864X64%29.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\good.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\good.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\GoTo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\green_tick.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\ifoam_logo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\import_file_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\light-bulb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\List.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\myorganic_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\NasaaCON.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\NasaaCON_MyOrg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\NasaaIC_Org.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\NasaaOIC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\NewDocument.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Null_Cert_Image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Null_Image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Number1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Number2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\OrgTHA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Packet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Print.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\product-management %281%29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\product-management.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Refresh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Save.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\scale.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\scale.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_cartoon1_512X512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_cartoon1_64X64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_cartoon2_512X512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_cartoon2_64X64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_illustration_icon_450X450.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_illustration_icon_57X57.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_yellow_512X512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\search_yellow_64X64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\ServiceSetup.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Setup.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\SpecialDiscount.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\SpecialPrice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\tick-vector-icon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\ttp-244.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\View.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

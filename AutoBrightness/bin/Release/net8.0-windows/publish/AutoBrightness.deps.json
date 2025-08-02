@@ -1,0 +1,1045 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AutoBrightness/1.0.0": {
+        "dependencies": {
+          "InputSimulator": "1.0.4",
+          "Newtonsoft.Json": "13.0.3",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11",
+          "Syncfusion.Themes.Blend.WPF": "29.2.11",
+          "Syncfusion.Themes.FluentDark.WPF": "29.2.11",
+          "Syncfusion.Themes.FluentLight.WPF": "29.2.11",
+          "Syncfusion.Themes.Lime.WPF": "29.2.11",
+          "Syncfusion.Themes.Material3Dark.WPF": "29.2.11",
+          "Syncfusion.Themes.Material3Light.WPF": "29.2.11",
+          "Syncfusion.Themes.MaterialDark.WPF": "29.2.11",
+          "Syncfusion.Themes.MaterialDarkBlue.WPF": "29.2.11",
+          "Syncfusion.Themes.MaterialLight.WPF": "29.2.11",
+          "Syncfusion.Themes.MaterialLightBlue.WPF": "29.2.11",
+          "Syncfusion.Themes.Metro.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2010Black.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2010Blue.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2010Silver.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2013DarkGray.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2013LightGray.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2013White.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2016Colorful.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2016DarkGray.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2016White.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2019Black.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2019Colorful.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2019DarkGray.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2019HighContrast.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2019HighContrastWhite.WPF": "29.2.11",
+          "Syncfusion.Themes.Office2019White.WPF": "29.2.11",
+          "Syncfusion.Themes.Office365.WPF": "29.2.11",
+          "Syncfusion.Themes.Saffron.WPF": "29.2.11",
+          "Syncfusion.Themes.SystemTheme.WPF": "29.2.11",
+          "Syncfusion.Themes.VisualStudio2013.WPF": "29.2.11",
+          "Syncfusion.Themes.VisualStudio2015.WPF": "29.2.11",
+          "Syncfusion.Themes.Windows11Dark.WPF": "29.2.11",
+          "Syncfusion.Themes.Windows11Light.WPF": "29.2.11",
+          "Syncfusion.Tools.WPF": "29.2.11",
+          "Syncfusion.UI.WPF.NET": "24.2.3"
+        },
+        "runtime": {
+          "AutoBrightness.dll": {}
+        }
+      },
+      "InputSimulator/1.0.4": {
+        "runtime": {
+          "lib/net20/WindowsInput.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Syncfusion.Licensing/29.2.11": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfSkinManager.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Blend.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Blend.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.FluentDark.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.FluentDark.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.FluentLight.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.FluentLight.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Lime.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Lime.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Material3Dark.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Material3Dark.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Material3Light.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Material3Light.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.MaterialDark.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.MaterialDark.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.MaterialDarkBlue.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.MaterialDarkBlue.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.MaterialLight.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.MaterialLight.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.MaterialLightBlue.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.MaterialLightBlue.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Metro.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Metro.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2010Black.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2010Black.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2010Blue.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2010Blue.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2010Silver.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2010Silver.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2013DarkGray.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2013DarkGray.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2013LightGray.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2013LightGray.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2013White.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2013White.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2016Colorful.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2016Colorful.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2016DarkGray.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2016DarkGray.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2016White.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2016White.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2019Black.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2019Black.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2019Colorful.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2019Colorful.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2019DarkGray.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2019DarkGray.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2019HighContrast.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2019HighContrast.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2019HighContrastWhite.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office2019White.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office2019White.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Office365.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Office365.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Saffron.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Saffron.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.SystemTheme.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.SystemTheme.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.VisualStudio2013.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.VisualStudio2013.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.VisualStudio2015.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.VisualStudio2015.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Windows11Dark.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Windows11Dark.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Themes.Windows11Light.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.SfSkinManager.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Themes.Windows11Light.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/29.2.11": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.2.11",
+          "Syncfusion.Shared.WPF": "29.2.11"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Tools.WPF.dll": {
+            "assemblyVersion": "29.2.11.0",
+            "fileVersion": "29.2.11.0"
+          }
+        }
+      },
+      "Syncfusion.UI.WPF.NET/24.2.3": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Calculate.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Compression.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Data.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.DocIO.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.DocToPDFConverter.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Edit.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.ExcelChartToImageConverter.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.ExcelToPdfConverter.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Gantt.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Grid.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.GridCommon.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Linq.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.OfficeChart.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.OfficeChartToImageConverter.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PMML.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Pdf.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PdfToImageConverter.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PdfViewer.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PivotAnalysis.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PivotAnalysis.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Presentation.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PresentationToPdfConverter.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.ProjIO.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.PropertyGrid.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfAccordion.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfBarcode.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfBulletGraph.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfBusyIndicator.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfCellGrid.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfChart.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfDiagram.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfDiagramRibbon.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfGauge.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfGrid.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfGridCommon.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfHeatMap.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfHubTile.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfImageEditor.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfInput.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfKanban.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfMaps.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfNavigationDrawer.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfProgressBar.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfRadialMenu.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfRichTextBoxAdv.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfRichTextRibbon.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfSchedule.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfScheduler.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfShared.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfSmithChart.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfSpellChecker.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfSpreadsheet.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfSpreadsheetHelper.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfSunburstChart.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfTextInputLayout.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfTreeMap.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfTreeNavigator.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.SfTreeView.WPF.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.Classic.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.Tools.WPF.Classic.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          },
+          "lib/net6.0-windows7.0/Syncfusion.XlsIO.Base.dll": {
+            "assemblyVersion": "24.2.3.0",
+            "fileVersion": "24.2.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoBrightness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InputSimulator/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0LvRCPQMX6/FJHBjng+RO+wRDuHTJrfo7IAc7rmkPvRqchdVGJWg3y70peOtDy3OLNK+HSOwVkH4GiuLnkKgA==",
+      "path": "inputsimulator/1.0.4",
+      "hashPath": "inputsimulator.1.0.4.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-66j5V1KVfH/QekZH9t3tpz82ffvj7kU7xAaFNtcQiapObmcat6d5H5siwPOBSIaJwa3/aJUgmHtHrU5UFz459g==",
+      "path": "syncfusion.licensing/29.2.11",
+      "hashPath": "syncfusion.licensing.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.SfSkinManager.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GQpQjs6/MIV9QA0APQW+npT7jcGv4f6Io/AFQMv7umn2Rhh/edoLsCw+ReiZBwcNdJDMIOsejjZaU/5uSZ5EdQ==",
+      "path": "syncfusion.sfskinmanager.wpf/29.2.11",
+      "hashPath": "syncfusion.sfskinmanager.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O0L3ewoaDvfRzm5iD5geBCIunnxj0CfpPWGXGvp6+IZa2uH4aWy2c99Qt+3BHqKY/+9bqom7N2Efg8cmPjZz9g==",
+      "path": "syncfusion.shared.wpf/29.2.11",
+      "hashPath": "syncfusion.shared.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Blend.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OYlHv668fnPy4biUwKmnwR03h8l6svg3urxkXuOgkn7JyZspjKzHgiFk2DXWomSbcJCPowibAuV1BGabySIu0g==",
+      "path": "syncfusion.themes.blend.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.blend.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.FluentDark.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PP1fxJUligLDll2cpKqutEDhUCwt4HzoNh3iuoHuTCQA5qBng5fEyH5o4L9AQyYVAweqKB3yCfI8vmMH9UXaUA==",
+      "path": "syncfusion.themes.fluentdark.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.fluentdark.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.FluentLight.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-myEnWOSLHxAkMaOLMcQuSFSA/9wDVLCf5AwFITtAtwzwZUx3BgSObs6i+o5bcVIgKtZlOcEFYsMrfwEQvx9VzQ==",
+      "path": "syncfusion.themes.fluentlight.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.fluentlight.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Lime.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fIjcAM5NTq5Rg3tPRlqnnXSDoOlxXJ6hQ+fqqe+aBwBVPMszwk36UEWusXqj+jP/0wi92t70cdQG+40zY3JdBg==",
+      "path": "syncfusion.themes.lime.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.lime.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Material3Dark.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-41xN1k/0STfhxF5tMvwYIuV4OJBxrunK/pS1nhUL/YpK9P2imieZeJZihKCwkvObrp5ElGxho7CN6CqoYqf8iQ==",
+      "path": "syncfusion.themes.material3dark.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.material3dark.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Material3Light.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WJ6fMwT6xN1FFwUgP3u4X9KgbP0yFy4hJ87V2tFFOmLHfKFI6dRDQ6/RHKvSqfX5YYA7ePFhNdtl6CxIGukOQQ==",
+      "path": "syncfusion.themes.material3light.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.material3light.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.MaterialDark.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e/G/C1bzflOGBkhOzDtrnFM+WbkfeT5EGi7QIfuKQzTKL02UbqrFI3S8AfmfwESZ8qwF2bzMtIz0b1QNvvZ/eQ==",
+      "path": "syncfusion.themes.materialdark.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.materialdark.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.MaterialDarkBlue.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5V+3lFCgwgOz8qxxyy0ZQAhTKhZATqeQPVkJXC8T0jPIjjPD0dQyctdZPNNPF4zfXEwKnfyc5U/hDzOjqdPYew==",
+      "path": "syncfusion.themes.materialdarkblue.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.materialdarkblue.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.MaterialLight.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qzj7lFpuRmBuD3D7ZFNnu/eaI7X0lX8e2qadSxKHMdWZ2dwI4IoQvexA4dlH4QnqewS8lvBfhhbCFmb4ZbTtNw==",
+      "path": "syncfusion.themes.materiallight.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.materiallight.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.MaterialLightBlue.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TjQpKOSFEnnwffQoLoopVpWa5Iwr7JbI3EUdwKNTtbXqpm08Gts1p+A4gHva27uKtbR8LnbueUBilqkTrDu04Q==",
+      "path": "syncfusion.themes.materiallightblue.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.materiallightblue.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Metro.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TJmj9ZvZaT/aS7WwS/ysh7OBbUMMJ0M4Psx5tqgIOT75fzk8Hprk71nH9JdgJ3ZFBxyimrAtSW6Fzr4yGMT0/g==",
+      "path": "syncfusion.themes.metro.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.metro.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2010Black.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eMjC+tE6Raq1qfa160pmUSB4dJbfukScFzZ66BTkmIuzUiSY8m/LMkYKGKJoNgwB873FNg0YCOa7RFy8rDwk6A==",
+      "path": "syncfusion.themes.office2010black.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2010black.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2010Blue.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JrYNJBGZTao4l0xeNSOZfAQ3mJBXB82M1hzsM1kazULFHB8RPGdkrxb9nf66fN412GcxlGGCyfjVABaswFnc7w==",
+      "path": "syncfusion.themes.office2010blue.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2010blue.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2010Silver.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1y1OPr5/c0uCve80cv25IW1UvrHgNee8MdPQaAbk4fyXZpPqt6w3l9pOI3QZq0V2Pz2Bu/R2GSUh8N8pYU/Qxg==",
+      "path": "syncfusion.themes.office2010silver.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2010silver.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2013DarkGray.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QRJhmA/IuZkcMWCXxR9lsAQt4p0ICQfyrsiEBry2oxlZ6o8b3R+2/E8uVk5Hfz8iFsXSFmOd3dfofPpG2p+4/w==",
+      "path": "syncfusion.themes.office2013darkgray.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2013darkgray.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2013LightGray.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S6fCVDpEMcenqHObiivSmXedsz1PiOf+5tLWoRPYfkobRHYAeJeTCAVs+KzAJJkYD5kskkf0JTLQPCGNDpa8AQ==",
+      "path": "syncfusion.themes.office2013lightgray.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2013lightgray.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2013White.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vxYe8mHEqQa15a+JfSR52ero6lxA8F8/64+J8PCYezByVfDw4sKkxp19UOJTtLuJLgc7lRfm0ouj8CCymtdm+g==",
+      "path": "syncfusion.themes.office2013white.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2013white.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2016Colorful.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8f3APEExXYwvTZxV01KBH+f4ReN65HMRgB9yHHLm0Dd/itRztawQYYhqLccKf9rGKuXXAgubGl1GYH1pq8LTw==",
+      "path": "syncfusion.themes.office2016colorful.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2016colorful.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2016DarkGray.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2pYIreYY5zTQYdkv9Aovm6eSop6xjAnhVKSzQ8p8KD/qU95jJfHS5t7iCr8IvZ0nMzO/Mck057/FGy6//75EzQ==",
+      "path": "syncfusion.themes.office2016darkgray.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2016darkgray.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2016White.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qqyXouVpi61wz/S1Xk1TvFshRPET4EW5LyITkQhFdPpmZwtqDQWpoxxewRYBkvrFEaY2/A/EmFF/SsGQu3unvg==",
+      "path": "syncfusion.themes.office2016white.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2016white.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2019Black.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WSlUlwTUWEzVSrhASWM3CjCyQ8PjDIUxxcfTZnXSw/7qSyFOm9P5xtzngZkaoppjzbL83WSr9/j/Wud+06h6pw==",
+      "path": "syncfusion.themes.office2019black.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2019black.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2019Colorful.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V+qDlBrTFpu/u27KUfUsVZoFbwwAwU59yKG1D1rjhizxQVRFSJQJD9TNB9DpCybhhAdbbkVHawsJWILUWCbADw==",
+      "path": "syncfusion.themes.office2019colorful.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2019colorful.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2019DarkGray.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tYLCwU5bSFwyLOzNEG9jQ+AvnQ/RCgmpYvJbj0wAL8D8PZhP+wJ85IEs000atNGHjeepJwqQkDMGtdQiXjzRNw==",
+      "path": "syncfusion.themes.office2019darkgray.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2019darkgray.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2019HighContrast.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VM5C87Yve4DJyTflUGAAiM2JsujX977sCUtEiDqPe6CQpKTYZq9O6w4pOA5SV1CPZ6wsa1xj2ScaNEYWLARD2g==",
+      "path": "syncfusion.themes.office2019highcontrast.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2019highcontrast.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2019HighContrastWhite.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ovKi5VeS/U+s2+leQ1gbW0fJ/AcDI+njwm3+X9XsUrtzh91NSZ4n+d6C/bsdqdLRU4vON1LquDogS98xum0XYg==",
+      "path": "syncfusion.themes.office2019highcontrastwhite.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2019highcontrastwhite.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office2019White.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fbiO85KW/RTiDIA76HliIU7rpZdUyjP5jk9hhZ7jWsiqR8E5h5wsbecGaZI4aOZlwSKuAPHssg7tK+aaW+yxrw==",
+      "path": "syncfusion.themes.office2019white.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office2019white.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Office365.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHnf9mtwKnL5bMILb05xalOzqBOAhYPlPU92dVvBhHBHcF2+HIcvSYq1jDDe0kw9BXqH4FjCZ0ajPaiaTj9qAA==",
+      "path": "syncfusion.themes.office365.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.office365.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Saffron.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xMypDb868a6HxdjunDhGvjtSUbeBHfIZxr8UjfjyjB3ZbapxZo2vveeDLLxZpSMvoV+YLrIUe9vNxw5FrmNFQ==",
+      "path": "syncfusion.themes.saffron.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.saffron.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.SystemTheme.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eV1YmDkk2mAPoWiyiyIMbVIcwihInTwD4mWOsa9uQoI1D1sFX4luOYSZWSoHWRyIwDI3MJYNmfa5Yf/TTnug8g==",
+      "path": "syncfusion.themes.systemtheme.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.systemtheme.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.VisualStudio2013.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ynRtDMRQ28toP08iNpiS/kgJr0XorJQFAXhEQQD7XWBBOyaQiWv6Bq6u3QqCmkLuEBUAhZiWX1LKy+VgPGMsWA==",
+      "path": "syncfusion.themes.visualstudio2013.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.visualstudio2013.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.VisualStudio2015.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bf9hu/qwzPsbmx36WF2DKTxwBXKK7kb6B81511guVl8Y0HvVIhKhGosWVN71hCl9uXLT8N7Cok/TczLrMeXQ3w==",
+      "path": "syncfusion.themes.visualstudio2015.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.visualstudio2015.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Windows11Dark.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UKhWY6Rrfq2RquCVMPQcgkuySRbZ3MzSIpSorMd95uJ02Huizvnw9doNxySVTtDUWqaw011ZGgRf7zIXRUnWgQ==",
+      "path": "syncfusion.themes.windows11dark.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.windows11dark.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Windows11Light.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VAwHrmLEt3E+Tkh6iCXS4AD4+KB3QqFoWBLgcdpvHBdoMd79uRfo/n4oKtVXocF+Q2tahpOwbl9Qja1bidSteA==",
+      "path": "syncfusion.themes.windows11light.wpf/29.2.11",
+      "hashPath": "syncfusion.themes.windows11light.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.Tools.WPF/29.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DJCpyR4cVf7ExY3tSTMHH654mQGwrFWSMnxcRwZm5XTKNLgqdTQiW/Crzry2zNVs8BLwSkVoSdDi+5f6llGk7g==",
+      "path": "syncfusion.tools.wpf/29.2.11",
+      "hashPath": "syncfusion.tools.wpf.29.2.11.nupkg.sha512"
+    },
+    "Syncfusion.UI.WPF.NET/24.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YwW5dqMBkSAqIhDDG76bWNuRl7dGUYhM/b1SygBac0JCSPL4ErsTeCfDMqWaWwVAC2M44yP9iRl10SsnurhBkA==",
+      "path": "syncfusion.ui.wpf.net/24.2.3",
+      "hashPath": "syncfusion.ui.wpf.net.24.2.3.nupkg.sha512"
+    }
+  }
+}

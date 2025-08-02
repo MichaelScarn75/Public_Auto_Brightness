@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "dgSpecHash": "aDZKncp1rhY=",
+  "success": true,
+  "projectFilePath": "C:\\Testing\\Auto_Brightness\\AutoBrightness\\AutoBrightness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chong\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.licensing\\29.2.11\\syncfusion.licensing.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.sfskinmanager.wpf\\29.2.11\\syncfusion.sfskinmanager.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.shared.wpf\\29.2.11\\syncfusion.shared.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.blend.wpf\\29.2.11\\syncfusion.themes.blend.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.fluentdark.wpf\\29.2.11\\syncfusion.themes.fluentdark.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.fluentlight.wpf\\29.2.11\\syncfusion.themes.fluentlight.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.lime.wpf\\29.2.11\\syncfusion.themes.lime.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.material3dark.wpf\\29.2.11\\syncfusion.themes.material3dark.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.material3light.wpf\\29.2.11\\syncfusion.themes.material3light.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.materialdark.wpf\\29.2.11\\syncfusion.themes.materialdark.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.materialdarkblue.wpf\\29.2.11\\syncfusion.themes.materialdarkblue.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.materiallight.wpf\\29.2.11\\syncfusion.themes.materiallight.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.materiallightblue.wpf\\29.2.11\\syncfusion.themes.materiallightblue.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.metro.wpf\\29.2.11\\syncfusion.themes.metro.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2010black.wpf\\29.2.11\\syncfusion.themes.office2010black.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2010blue.wpf\\29.2.11\\syncfusion.themes.office2010blue.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2010silver.wpf\\29.2.11\\syncfusion.themes.office2010silver.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2013darkgray.wpf\\29.2.11\\syncfusion.themes.office2013darkgray.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2013lightgray.wpf\\29.2.11\\syncfusion.themes.office2013lightgray.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2013white.wpf\\29.2.11\\syncfusion.themes.office2013white.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2016colorful.wpf\\29.2.11\\syncfusion.themes.office2016colorful.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2016darkgray.wpf\\29.2.11\\syncfusion.themes.office2016darkgray.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2016white.wpf\\29.2.11\\syncfusion.themes.office2016white.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2019black.wpf\\29.2.11\\syncfusion.themes.office2019black.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2019colorful.wpf\\29.2.11\\syncfusion.themes.office2019colorful.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2019darkgray.wpf\\29.2.11\\syncfusion.themes.office2019darkgray.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2019highcontrast.wpf\\29.2.11\\syncfusion.themes.office2019highcontrast.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2019highcontrastwhite.wpf\\29.2.11\\syncfusion.themes.office2019highcontrastwhite.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office2019white.wpf\\29.2.11\\syncfusion.themes.office2019white.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.office365.wpf\\29.2.11\\syncfusion.themes.office365.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.saffron.wpf\\29.2.11\\syncfusion.themes.saffron.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.systemtheme.wpf\\29.2.11\\syncfusion.themes.systemtheme.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.visualstudio2013.wpf\\29.2.11\\syncfusion.themes.visualstudio2013.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.visualstudio2015.wpf\\29.2.11\\syncfusion.themes.visualstudio2015.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.windows11dark.wpf\\29.2.11\\syncfusion.themes.windows11dark.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.themes.windows11light.wpf\\29.2.11\\syncfusion.themes.windows11light.wpf.29.2.11.nupkg.sha512",
+    "C:\\Users\\chong\\.nuget\\packages\\syncfusion.tools.wpf\\29.2.11\\syncfusion.tools.wpf.29.2.11.nupkg.sha512",
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\24.2.3\\ToolboxNuGetPackages\\syncfusion.ui.wpf.net\\24.2.3\\syncfusion.ui.wpf.net.24.2.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Testing\\Auto_Brightness\\AutoBrightness\\AutoBrightness.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Testing\\Auto_Brightness\\AutoBrightness\\AutoBrightness.csproj",
+      "libraryId": "InputSimulator",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

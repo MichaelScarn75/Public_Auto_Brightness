@@ -1,0 +1,14 @@
+[
+  {
+    "ApplicationName": "brave",
+    "ApplicationTitle": "2014.09.04\u5EB7\u7199\u4F86\u4E86\u5B8C\u6574\u7248\u3000\u51A4\u5BB6\u8DEF\u7A84\uFF01\uFF01\u5EB7\u7199\u51A4\u5BB6\u5410\u69FD\u5927\u6703 - YouTube - Brave",
+    "ApplicationBrightness": 0,
+    "EnableHDR": 1
+  },
+  {
+    "ApplicationName": "explorer",
+    "ApplicationTitle": "AutoBrightness - File Explorer",
+    "ApplicationBrightness": 0,
+    "EnableHDR": 0
+  }
+]
